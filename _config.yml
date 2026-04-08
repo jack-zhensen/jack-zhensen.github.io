@@ -3,16 +3,16 @@
 # Import the theme
 theme: jekyll-theme-chirpy
 
-# The language of the webpage â€? http://www.lingoes.net/en/translator/langcode.htm
+# The language of the webpage ï¿½? http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
 lang: en
 
-# Change to your timezone â€? https://zones.arilyn.cc
+# Change to your timezone ï¿½? https://zones.arilyn.cc
 timezone:
 
-# jekyll-seo-tag settings â€? https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
-# â†? --------------------------
+# jekyll-seo-tag settings ï¿½? https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
+# ï¿½? --------------------------
 
 title: Jack's Embedded Lab # the main title
 
@@ -55,7 +55,7 @@ webmaster_verifications:
   baidu: # fill in your Baidu verification code
   facebook: # fill in your Facebook verification code
 
-# â†? --------------------------
+# ï¿½? --------------------------
 # The end of `jekyll-seo-tag` settings
 
 # Web Analytics Settings
@@ -87,8 +87,8 @@ pageviews:
 #
 # Available options:
 #
-#     light â€? Use the light color scheme
-#     dark â€? Use the dark color scheme
+#     light ï¿½? Use the light color scheme
+#     dark ï¿½? Use the dark color scheme
 #
 theme_mode: # [light | dark]
 
@@ -114,12 +114,12 @@ comments:
   provider: # [disqus | utterances | giscus]
   # The provider options are as follows:
   disqus:
-    shortname: # fill with the Disqus shortname. â€? https://help.disqus.com/en/articles/1717111-what-s-a-shortname
-  # utterances settings â€? https://utteranc.es/
+    shortname: # fill with the Disqus shortname. ï¿½? https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+  # utterances settings ï¿½? https://utteranc.es/
   utterances:
     repo: # <gh-username>/<repo>
     issue_term: # < url | pathname | title | ...>
-  # Giscus options â€? https://giscus.app
+  # Giscus options ï¿½? https://giscus.app
   giscus:
     repo: # <gh-username>/<repo>
     repo_id:
@@ -131,7 +131,7 @@ comments:
     lang: # optional, default to the value of `site.lang`
     reactions_enabled: # optional, default to the value of `1`
 
-# Self-hosted static assets, optional â€? https://github.com/cotes2020/chirpy-static-assets
+# Self-hosted static assets, optional ï¿½? https://github.com/cotes2020/chirpy-static-assets
 assets:
   self_host:
     enabled: # boolean, keep empty means false
@@ -159,7 +159,7 @@ baseurl: ""
 kramdown:
   footnote_backlink: "&#8617;&#xfe0e;"
   syntax_highlighter: rouge
-  syntax_highlighter_opts: # Rouge Options â€? https://github.com/jneen/rouge#full-options
+  syntax_highlighter_opts: # Rouge Options ï¿½? https://github.com/jneen/rouge#full-options
     css_class: highlight
     # default_lang: console
     span:
