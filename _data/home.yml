@@ -1,0 +1,112 @@
+hero:
+  eyebrow: Technical Blog / 技术博客
+  title: Build knowledge that is useful to learn from and useful to hire from.
+  description: >
+    A structured blog for ARM architecture, Linux systems, toolchains, embedded
+    firmware, BLE, SBC bring-up, robotics, and practical engineering AI.
+  focus_areas:
+    - ARM architecture and computer systems
+    - Linux setup, embedded Linux, and development workflow
+    - Toolchains, cross-compilation, debugging, and build systems
+    - MCU firmware, BLE communication, and hardware bring-up
+    - SBC integration, robotics, and actuator control
+  links:
+    - title: Start Here / 从这里开始
+      description: Choose an entry point by your goal instead of browsing at random.
+      url: /start-here/
+    - title: Learning Paths / 学习路线
+      description: Beginner-friendly routes for MCU, Linux, BLE, and motor control.
+      url: /learning-paths/
+    - title: Series / 系统专栏
+      description: Long-form columns for architecture, Linux, toolchains, BLE, and robotics.
+      url: /series/
+    - title: Projects / 项目复盘
+      description: Project dossiers that highlight system design, tradeoffs, and verification.
+      url: /projects/
+
+featured_series:
+  eyebrow: Featured Series / 精选专栏
+  heading: System knowledge columns built for long-term depth
+  description: >
+    Follow a subject over time instead of consuming disconnected tips. Each column
+    explains what problem it solves, who it is for, and what to study next.
+  items:
+    - badge: Architecture
+      title: ARM Architecture Foundations / ARM 体系结构入门
+      description: Understand ISA, exceptions, interrupts, cache, boot flow, and how ARM platforms really work.
+      audience: For readers who want to move from using chips to understanding platforms.
+      url: /series/arm-architecture/
+    - badge: Linux & Systems
+      title: Linux Installation & System Setup / Linux 安装与系统配置
+      description: Build a stable engineering workstation, command-line habits, debugging workflow, and repeatable system setup.
+      audience: For learners who want Linux to become an actual development platform.
+      url: /series/linux-systems/
+    - badge: Toolchain & Build
+      title: Embedded Toolchain & Build / 嵌入式工具链与编译
+      description: Clarify compiler, linker, build system, cross toolchain, deployment, and debug environment decisions.
+      audience: For engineers who spend time fighting build chains and want a cleaner mental model.
+      url: /series/embedded-toolchain-build/
+
+featured_projects:
+  eyebrow: Featured Projects / 精选项目
+  heading: Project dossiers that show engineering ability
+  description: >
+    These pages are honest project tracks: what will be built, which problem it solves,
+    and what evidence the final write-up needs to provide.
+  items:
+    - badge: Planned Build
+      title: BLE Sensor Node & Monitoring Chain / BLE 传感器节点与监控链路
+      description: A small end-to-end system covering firmware, wireless communication, and host-side observation.
+      audience: Useful if you care about device communication, data reporting, and BLE debugging.
+      url: /projects/ble-sensor-node/
+    - badge: Planned Build
+      title: Linux Development Workstation / Linux 开发工作站与交叉编译环境
+      description: A repeatable workstation setup for embedded work, deployment, remote debugging, and cross build tasks.
+      audience: Useful if you want a cleaner daily workflow instead of scattered setup notes.
+      url: /projects/linux-dev-workstation/
+    - badge: Planned Build
+      title: Encoder Closed-Loop Motor Control / 编码器反馈闭环电机控制
+      description: A practical control-system dossier from PWM drive to feedback, tuning, and measurable behavior.
+      audience: Useful if you are learning actuator control, robotics, or real-time embedded work.
+      url: /projects/motor-control-encoder-loop/
+    - badge: Planned Build
+      title: SBC Robotics Hub / SBC 机器人主机与外设集成
+      description: A system integration track for Linux SBC, sensors, actuators, communications, and software coordination.
+      audience: Useful if you want to see how separate modules become a working robot platform.
+      url: /projects/sbc-robotics-hub/
+
+topic_entrances:
+  eyebrow: Topic Entrances / 技术专题
+  heading: Seven stable directions for the whole site
+  description: >
+    New topics should fit into one of these directions first. Specific technologies
+    belong in tags or series instead of expanding the top-level structure.
+  items:
+    - title: Architecture
+      subtitle: ARM / ISA / Cache / Boot
+      description: Architecture concepts, execution model, interrupt handling, memory hierarchy, and bring-up thinking.
+      url: /series/arm-architecture/
+    - title: Linux & Systems
+      subtitle: Install / Shell / Debug / Drivers
+      description: Linux usage as an engineering platform, not just as an operating system you happen to boot.
+      url: /series/linux-systems/
+    - title: Toolchain & Build
+      subtitle: GCC / LLVM / CMake / Cross Build
+      description: Toolchain selection, build pipelines, debug setup, deployment, and reproducibility.
+      url: /series/embedded-toolchain-build/
+    - title: Embedded & MCU
+      subtitle: STM32 / ESP32 / RTOS / BLE
+      description: Peripherals, interrupts, drivers, board bring-up, and the embedded basics that support everything else.
+      url: /learning-paths/mcu/
+    - title: SBC & Edge
+      subtitle: Raspberry Pi / Jetson / Bring-up
+      description: Board-level system setup, connectivity, peripherals, and edge-device integration work.
+      url: /projects/sbc-robotics-hub/
+    - title: Robotics
+      subtitle: ROS / Sensors / Control / Integration
+      description: Systems that combine compute, communication, sensing, actuation, and practical software structure.
+      url: /series/robotics-system-build/
+    - title: AI & Programming
+      subtitle: Models / Languages / Engineering
+      description: Engineering-focused AI usage, programming language practice, and software design that supports real systems.
+      url: /categories/

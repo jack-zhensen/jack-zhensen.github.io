@@ -1,5 +1,7 @@
 ---
+title: Tags / 标签
 layout: tags
 icon: fas fa-tags
-order: 2
+order: 7
+nav_group: secondary
 ---
